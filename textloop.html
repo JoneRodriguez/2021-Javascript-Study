@@ -11,9 +11,24 @@
 <!--
     for(var i=0;i<10000;i++){
         //Do the thing
+        /*
+        * For(var i=0;  i<=9001;     i++)
+        *    init var  condition    increment
+        /*
 -->
 <script>
     for(var i = 0; i< 9001; i++){
         console.log("Hello!!" + i);
+    }
+
+    for(var i = 7; i<= 7000; i++){
+        if(i % 2 == 0){
+            console.log("Even" + i);
+        }
+    }
+    for(var i = 7; i<= 7000; i++){
+        if(i % 2 == 1){
+            console.log("Odd" + i);
+        }
     }
 </script>
