@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hover Over</title>
+
+    <script>
+
+        function showButton() {
+            var button = document.getElementById("button");
+            button.style.display = "block";
+
+        }
+
+        function bigBig() {
+            var img = document.getElementById("fatty");
+            img.style.width = "100%";
+
+        }
+    </script>
+</head>
+<body>
+
+<div style="background:purple" id="text" onclick="showButton()">Click to find Button!</div>
+<button style="display:none;" id="button" type="button" onmouseover="bigBig()">Hover over me for a surprise!</button>
+<img id="fatty" src="piccys/fat%20seal.jfif" width="100"/>
+
+</body>
+</html>

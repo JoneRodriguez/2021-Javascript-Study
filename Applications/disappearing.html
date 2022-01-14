@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>disappearing image</title>
+    <script>
+        function byeBye() {
+            var image = document.getElementById("meme");
+            image.style.display = "none";
+
+            var surpriseImage = document.getElementById("surprise");
+            surpriseImage.style.display = "block";
+        }
+    </script>
+</head>
+<body>
+<button type="button" onClick="byeBye()">Click for a surprise!</button>
+<img id="meme" src="piccys/better wholesome.jfif" width="200"/>
+<img id="surprise" src="piccys/fat%20seal.jfif" style="display: none" />
+</body>
+</html>
